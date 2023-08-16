@@ -74,3 +74,5 @@ to add in exception handling to the project?
 - http://localhost:3000/api/v1/books/2 will show a book with bookId = 2 
 
 - When posting book data via Postman, make sure you post the JS object using the body -> raw -> JSON option (post to the  http://localhost:3000/api/v1/books/ endpoint)
+
+- Sending a DELETE request to  http://localhost:3000/api/v1/books/2 via POSTMAN will delete the entry with bookID = 2
