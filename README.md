@@ -65,3 +65,12 @@ to add in exception handling to the project?
 
 -   Clue 2: What if someone wants to find a book by an ID that doesn't yet exist?
     How can we improve the API by handling errors gracefully and show a helpful message to the client?
+
+
+### Notes
+
+- Navigate to http://localhost:3000/api/v1/books to see the books route
+
+- http://localhost:3000/api/v1/books/2 will show a book with bookId = 2 
+
+- When posting book data via Postman, make sure you post the JS object using the body -> raw -> JSON option (post to the  http://localhost:3000/api/v1/books/ endpoint)
